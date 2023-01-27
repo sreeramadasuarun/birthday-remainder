@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(249, 140, 178);
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.person-image img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    float: left;
+    object-fit: cover;
+}
+
+.person-details {
+    font-size: 13px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.cards {
+    background-color: white;
+    width: 20rem;
+    height: auto;
+    box-shadow: 32px 40px 50px 58px #0000001a;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.person {
+    margin-left: 10px;
+    padding: 15px 5px 7px 5px;
+}
+
+.btn-center {
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    box-shadow: 5px 10px 8px #6a6a6a31;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(to right, rgb(252, 98, 255), rgb(252, 114, 162));
+    transition: 0.5s;
+
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, rgb(252, 114, 162), rgb(217, 26, 220));
+
+}
+
+.person-age {
+    color: #6a6a6a;
+}
+
+.all-person-list {
+    margin: 15px 0px 20px 0px;
+}
